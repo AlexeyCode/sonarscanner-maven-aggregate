@@ -21,6 +21,8 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
+    <sonar.host.url>http://35.236.113.144</sonar.host.url>
+    <sonar.login>7eeacf997af63d163db9937968ab516181cb9c89</sonar.login>
     <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
   </properties>
 

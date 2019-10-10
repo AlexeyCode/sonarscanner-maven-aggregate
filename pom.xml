@@ -21,7 +21,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
-    <sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate</sonar.projectKey>
+    <!--<sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate</sonar.projectKey>-->
     <sonar.language>java</sonar.language>
     <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
   </properties>

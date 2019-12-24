@@ -24,7 +24,8 @@
     <!--<sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate</sonar.projectKey>-->
     <sonar.language>java</sonar.language>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-    <aggregate.report.dir>tests/target/site/jacoco-aggregate</aggregate.report.dir>
+    <aggregate.report.dir>target/</aggregate.report.dir>
+    <sonar.coverage.jacoco.xmlReportPaths>${project.basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
   </properties>
 
   <dependencies>

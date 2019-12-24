@@ -22,9 +22,8 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
     <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
-    <sonar.projectKey>multi</sonar.projectKey>
+    <sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate</sonar.projectKey>
     <sonar.host.url>http://35.228.158.214</sonar.host.url>
-    <sonar.login>multi</sonar.login>
   </properties>
 
   <dependencies>

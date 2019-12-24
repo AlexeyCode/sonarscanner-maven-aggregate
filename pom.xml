@@ -53,10 +53,17 @@
           <version>0.8.4</version>
           <executions>
             <execution>
-              <id>jacoco-initialize</id>
+              <id>prepare-agent</id>
               <goals>
                 <goal>prepare-agent</goal>
               </goals>
+            </execution>
+            <execution>
+              <id>report</id>
+              <goals>
+                <goal>report-aggregate</goal>
+              </goals>
+              <phase>verify</phase>
             </execution>
           </executions>
         </plugin>
@@ -67,8 +74,6 @@
 <!--  <profiles>-->
 <!--    <profile>-->
 <!--      <id>coverage</id>-->
-<!--      <activation>-->
-<!--      </activation>-->
 <!--      <build>-->
 <!--        <plugins>-->
 <!--          <plugin>-->

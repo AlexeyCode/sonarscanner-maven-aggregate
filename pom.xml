@@ -23,8 +23,8 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <!--<sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate</sonar.projectKey>-->
     <sonar.language>java</sonar.language>
-      <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
-    <aggregate.report.dir>module1/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
+    <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+    <aggregate.report.dir>tests/target/site/jacoco-aggregate</aggregate.report.dir>
   </properties>
 
   <dependencies>

@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.sonarqube2</groupId>
-  <artifactId>sonarscanner-maven-aggregate2</artifactId>
+  <groupId>org.sonarqube</groupId>
+  <artifactId>sonarscanner-maven-aggregate</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Example of multi-module Maven project2</name>
+  <name>Example of multi-module Maven project</name>
 
   <modules>
     <module>module1</module>
@@ -22,7 +22,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
     <aggregate.report.dir>tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
-    <sonar.projectKey>org.sonarqube2:sonarscanner-maven-aggregate2</sonar.projectKey>
+    <sonar.projectKey>org.sonarqube:sonarscanner-maven-aggregate2</sonar.projectKey>
     <sonar.host.url>http://35.228.158.214</sonar.host.url>
   </properties>
 

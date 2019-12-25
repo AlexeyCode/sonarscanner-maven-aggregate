@@ -16,10 +16,6 @@
   <name>Module 1</name>
 
 
-  <modules>
-    <module>module3</module>
-  </modules>
-
   <properties>
     <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
   </properties>

@@ -9,4 +9,10 @@ public class Module1Test {
     Module1 module1 = new Module1();
     module1.coveredByUnitTest();
   }
+
+  @Test
+  public void coveredUncoveredTest(){
+    Module1 module1 = new Module1();
+    module1.uncovered();
+  }
 }

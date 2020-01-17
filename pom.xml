@@ -59,8 +59,6 @@
   <profiles>
     <profile>
       <id>coverage</id>
-      <activation>
-      </activation>
       <build>
         <plugins>
           <plugin>
